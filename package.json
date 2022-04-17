@@ -3,7 +3,7 @@
   "displayName": "Auto.js 自动运行",
   "description": "自动监听js文件并运行",
   "icon": "assets/favicon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "tiaod",
   "repository": {
     "type": "git",
