@@ -2,8 +2,13 @@
   "name": "autojs-watch",
 	"displayName": "Auto.js 自动运行",
 	"description": "自动监听js文件并运行",
+	"icon": "assets/favicon.png",
 	"version": "0.0.1",
-	"repository": "https://github.com/tiaod/autojs-watch",
+	"publisher": "tiaod",
+	"repository":  {
+		"type": "git",
+		"url": "https://github.com/tiaod/autojs-watch"
+	},
 	"engines": {
 		"vscode": "^1.66.0"
 	},
