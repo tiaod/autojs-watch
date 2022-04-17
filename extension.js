@@ -29,7 +29,7 @@ function activate(context) {
 		watcher = vscode.workspace.createFileSystemWatcher(config.watchFolder)
 		watcher.onDidChange(async e => { // 文件发生更新
 			channel.appendLine('change: ' + e.fsPath);
-			vscode.window.showInformationMessage('文件发生了更新！');
+			// vscode.window.showInformationMessage('文件发生了更新！');
 			await vscode.commands.executeCommand('autojspro.stopAll')
 			await vscode.commands.executeCommand('autojspro.run')
 		});
